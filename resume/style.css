@@ -1,0 +1,18 @@
+.body{
+    padding-left: 0%;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the container take up the full viewport height */
+  }
+  
+  /* Add some styles to the image */
+  .pic img{
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    max-height: 100%; /* Ensure the image doesn't exceed its container's height */
+    border-radius: 10px; /* Add rounded corners to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle box shadow */
+  }
